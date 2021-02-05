@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navbar } from 'react-bootstrap';
 
-function Navbar () {
+function Header () {
     return (
         <div>
             <Navbar class="navbar navbar-light" style={{backgroundColor: "lightgreen"}}>
@@ -11,4 +11,4 @@ function Navbar () {
     );
 }
 
-export default Navbar;
+export default Header;
